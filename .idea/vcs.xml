@@ -3,5 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Predict" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Predict-App" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/android" vcs="Git" />
   </component>
 </project>
