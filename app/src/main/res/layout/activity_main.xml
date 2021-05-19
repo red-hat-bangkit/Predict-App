@@ -43,8 +43,8 @@
         android:id="@+id/imageButton"
         android:layout_width="210dp"
         android:layout_height="194dp"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="256dp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="393dp"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
