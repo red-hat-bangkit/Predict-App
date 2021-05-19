@@ -20,23 +20,31 @@
         android:layout_width="195dp"
         android:layout_height="167dp"
         android:text="Button"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="33dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="195dp"
         android:layout_height="167dp"
         android:text="Button"
-        tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="208dp" />
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="246dp" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="461dp"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="450dp"
         tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="210dp"
+        android:layout_height="194dp"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="492dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
