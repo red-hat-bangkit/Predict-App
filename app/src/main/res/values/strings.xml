@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Predict</string>
     <string name="title">Judul</string>
-    <string name="description">Deskripsi</string>
+    <string name="nama">Nama</string>
+    <string name="email"> Email </string>
+    <string name="password"> Password </string>
     <string name="submit">Submit</string>
     <string name="delete">Hapus</string>
     <string name="date">Date</string>
