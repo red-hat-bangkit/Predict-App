@@ -5,11 +5,13 @@
     <string name="email"> Email </string>
     <string name="password"> Password </string>
     <string name="submit">Submit</string>
+    <string name="sign_in">Sign In</string>
     <string name="delete">Hapus</string>
     <string name="date">Date</string>
     <string name="bencana">Bencana</string>
     <string name="wilayah">Wilayah</string>
     <string name="LongLat">Long,Lat</string>
+    <string name="register">Create Account</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
