@@ -17,4 +17,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="movie">Berita</string>
     <string name="tvshow">prediksi</string>
+    <string name="reqtoken">700362298333-eaf0u4j1np3a6cvanphgf9jhsstrorbc.apps.googleusercontent.com</string>
+    <string name="logout">Logout</string>
 </resources>
