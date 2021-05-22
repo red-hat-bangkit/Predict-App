@@ -1,0 +1,387 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 264 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 4030801 0 0
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 3113 1 102077 0 -1
+ciMethod java/lang/String <init> ([CII)V 2993 1 5617 0 -1
+ciMethod java/lang/String equals (Ljava/lang/Object;)Z 3097 13185 5959 0 -1
+ciMethod java/lang/String hashCode ()I 2785 32769 1505 0 288
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 5121 1 640 0 -1
+ciMethod java/lang/Throwable initCause (Ljava/lang/Throwable;)Ljava/lang/Throwable; 33 1 21 0 -1
+ciMethod java/lang/RuntimeException <init> (Ljava/lang/String;)V 0 0 87 0 -1
+ciMethod java/lang/RuntimeException <init> (Ljava/lang/Throwable;)V 0 0 1 0 -1
+ciMethod java/util/Map get (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod sun/misc/Unsafe getObjectVolatile (Ljava/lang/Object;J)Ljava/lang/Object; 3073 1 384 0 -1
+ciMethod java/io/InputStream read ([BII)I 9 1465 1 0 -1
+ciMethod java/lang/Boolean valueOf (Z)Ljava/lang/Boolean; 1009 1 52760 0 -1
+ciMethod java/lang/Integer valueOf (I)Ljava/lang/Integer; 465 1 52856 0 -1
+ciMethodData java/lang/Object <init> ()V 2 4030801 orig 264 88 131 167 114 0 0 0 0 128 4 69 23 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 137 250 235 1 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/concurrent/ConcurrentHashMap spread (I)I 3129 1 60859 0 0
+ciMethod java/util/concurrent/ConcurrentHashMap tabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;I)Ljava/util/concurrent/ConcurrentHashMap$Node; 3209 1 130730 0 64
+ciMethod java/util/concurrent/ConcurrentHashMap casTabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;ILjava/util/concurrent/ConcurrentHashMap$Node;Ljava/util/concurrent/ConcurrentHashMap$Node;)Z 2641 1 28680 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2097 33 7991 0 640
+ciMethod java/util/concurrent/ConcurrentHashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2057 1 5525 0 64
+ciMethod java/util/concurrent/ConcurrentHashMap putVal (Ljava/lang/Object;Ljava/lang/Object;Z)Ljava/lang/Object; 3217 713 37478 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap initTable ()[Ljava/util/concurrent/ConcurrentHashMap$Node; 65 1 1390 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap addCount (JI)V 2273 65 17698 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap helpTransfer ([Ljava/util/concurrent/ConcurrentHashMap$Node;Ljava/util/concurrent/ConcurrentHashMap$Node;)[Ljava/util/concurrent/ConcurrentHashMap$Node; 0 0 1 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap treeifyBin ([Ljava/util/concurrent/ConcurrentHashMap$Node;I)V 1 1 1 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap$Node <init> (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/concurrent/ConcurrentHashMap$Node;)V 2649 1 33549 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap$Node find (ILjava/lang/Object;)Ljava/util/concurrent/ConcurrentHashMap$Node; 0 0 1 0 -1
+ciMethodData java/lang/String hashCode ()I 2 19968 orig 264 88 131 167 114 0 0 0 0 184 79 69 23 0 0 0 0 152 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 0 0 41 36 0 0 1 240 1 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 11 0 2 0 0 0 120 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 15 0x60007 0x280 0x78 0x205 0xe0007 0x5 0x58 0x200 0x1e0007 0x200 0x38 0x3ddf 0x2d0003 0x3ddf 0xffffffffffffffe0 oops 0
+ciMethodData java/util/concurrent/ConcurrentHashMap tabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;I)Ljava/util/concurrent/ConcurrentHashMap$Node; 2 130730 orig 264 88 131 167 114 0 0 0 0 48 206 94 23 0 0 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 145 1 0 0 201 232 15 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 96 0 0 0 255 255 255 255 5 0 14 0 0 0 0 0 data 12 0xe0005 0x2 0x0 0x0 0x0 0x0 0x110104 0x0 0x1fe6b440 0x140ca 0x20dc9870 0x3192 oops 2 8 java/util/concurrent/ConcurrentHashMap$Node 10 java/util/concurrent/ConcurrentHashMap$ForwardingNode
+ciMethodData java/util/concurrent/ConcurrentHashMap spread (I)I 2 60859 orig 264 88 131 167 114 0 0 0 0 0 203 94 23 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 135 1 0 0 161 97 7 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/util/concurrent/ConcurrentHashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2 7991 orig 264 88 131 167 114 0 0 0 0 136 213 94 23 0 0 0 0 8 4 0 0 208 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 1 0 0 137 241 0 0 33 49 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 36 0 2 0 0 0 184 2 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 87 0x10005 0x1284 0x1b3361e0 0xa9b 0x2dab7c0 0x112 0x40002 0x1e31 0xf0007 0x4b 0x278 0x1de6 0x170007 0x0 0x258 0x1de6 0x220002 0x1de6 0x270007 0x3f6 0x228 0x19f0 0x330007 0x458 0xb0 0x1598 0x3e0007 0xc85 0x90 0x913 0x430007 0x0 0xf8 0x913 0x490005 0x28d 0x1b3361e0 0x684 0x1b336290 0x2 0x4c0007 0x0 0xa8 0x913 0x560007 0x458 0x88 0x0 0x5d0005 0x0 0x0 0x0 0x0 0x0 0x630007 0x0 0x38 0x0 0x6b0003 0x0 0x18 0x760007 0x20e 0xd0 0x33b 0x7f0007 0xf1 0xffffffffffffffe0 0x24a 0x8a0007 0xd1 0x90 0x179 0x8f0007 0x0 0xffffffffffffffa0 0x179 0x950005 0x39 0x1b3361e0 0x13d 0x1b336290 0x3 0x980007 0x0 0xffffffffffffff50 0x179 oops 6 2 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry 4 java/lang/invoke/MemberName 36 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry 38 sun/util/locale/BaseLocale$Key 79 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry 81 sun/util/locale/BaseLocale$Key
+ciMethodData java/util/concurrent/ConcurrentHashMap putVal (Ljava/lang/Object;Ljava/lang/Object;Z)Ljava/lang/Object; 2 37478 orig 264 88 131 167 114 0 0 0 0 224 217 94 23 0 0 0 0 152 6 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 146 1 0 0 161 134 4 0 81 152 0 0 40 117 0 0 175 18 0 0 2 0 0 0 2 0 61 0 2 0 0 0 56 5 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 167 0x10007 0x0 0x40 0x90d6 0x50007 0x90d8 0x30 0x0 0xc0002 0x0 0x110005 0x322f 0x1b3361e0 0x15a 0x2cdb970 0x5d51 0x140002 0x90df 0x240007 0x2ac 0x40 0x90e1 0x2d0007 0x90e1 0x48 0x0 0x310002 0x2ac 0x360003 0x2ad 0x430 0x450002 0x90d6 0x4b0007 0x38bb 0x78 0x5823 0x5c0002 0x5822 0x5f0002 0x582e 0x620007 0x1 0x3c8 0x5831 0x650003 0x5830 0x3c0 0x71e007 0x38bb 0x68 0x1 0x790005 0x1 0x0 0x0 0x0 0x0 0x7e0003 0x1 0x340 0x8e0002 0x38bd 0x930007 0x0 0x290 0x38bd 0x980007 0x0 0x180 0x38bd 0xa90007 0x369a 0xe8 0x127e 0xb50007 0x60 0x90 0x121e 0xba0007 0x0 0xa8 0x121e 0xc0f005 0x15 0x2cdb970 0x1208 0x1b3361e0 0x5 0xc30007 0x3 0x58 0x121f 0xcee007 0x1213 0x98 0x6d 0xd70003 0x6d 0x78 0xe60007 0x105b 0x48 0x2642 0xf40002 0x2642 0xfa0003 0x2642 0x30 0x1000003 0x105b 0xfffffffffffffed0 0x1030003 0x38c2 0x108 0x1080004 0x0 0x0 0x0 0x0 0x0 0x10b0007 0x0 0xc0 0x0 0x1130004 0x0 0x0 0x0 0x0 0x0 0x11a0005 0x0 0x0 0x0 0x0 0x0 0x1200007 0x0 0x40 0x0 0x12b0007 0x0 0x20 0x0 0x1370003 0x38c2 0x18 0x1440007 0x0 0x70 0x38c2 0x14be007 0x38c2 0x30 0x1 0x1530002 0x1 0x1580007 0x2643 0x38 0x1280 0x15e0003 0x2ae 0xfffffffffffffb80 0x1650002 0x7e71 oops 4 12 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry 14 java/lang/String 85 java/lang/String 87 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry
+ciMethod java/io/EOFException <init> ()V 9 1 5 0 -1
+ciMethod org/gradle/internal/serialize/Decoder readInt ()I 0 0 1 0 -1
+ciMethod org/gradle/internal/serialize/Decoder readSmallInt ()I 0 0 1 0 -1
+ciMethod org/gradle/internal/serialize/Decoder readBoolean ()Z 0 0 1 0 -1
+ciMethod org/gradle/internal/serialize/Decoder readString ()Ljava/lang/String; 0 0 1 0 -1
+ciMethod org/gradle/internal/serialize/Decoder readByte ()B 0 0 1 0 -1
+ciMethod org/gradle/internal/serialize/kryo/KryoBackedDecoder maybeEndOfStream (Lcom/esotericsoftware/kryo/KryoException;)Ljava/lang/RuntimeException; 0 0 4 0 0
+ciMethod org/gradle/internal/serialize/kryo/KryoBackedDecoder readByte ()B 3081 1 11734 0 1088
+ciMethod org/gradle/internal/serialize/kryo/KryoBackedDecoder readSmallInt ()I 2433 1 12607 0 0
+ciMethod org/gradle/internal/serialize/kryo/KryoBackedDecoder readString ()Ljava/lang/String; 2401 1 19287 0 128
+ciMethod org/gradle/internal/serialize/kryo/KryoBackedDecoder readNullableString ()Ljava/lang/String; 21361 1 22129 0 128
+ciMethod com/esotericsoftware/kryo/KryoException <init> (Ljava/lang/String;)V 9 1 4 0 0
+ciMethod com/esotericsoftware/kryo/KryoException <init> (Ljava/lang/Throwable;)V 0 0 1 0 0
+ciMethod com/esotericsoftware/kryo/KryoException getMessage ()Ljava/lang/String; 9 1 4 0 -1
+ciMethod com/esotericsoftware/kryo/io/Input fill ([BII)I 65 1 1862 0 0
+ciMethod com/esotericsoftware/kryo/io/Input require (I)I 1993 1 18049 1 1376
+ciMethod com/esotericsoftware/kryo/io/Input readByte ()B 3081 1 17442 0 0
+ciMethod com/esotericsoftware/kryo/io/Input readInt ()I 4097 1 7239 0 -1
+ciMethod com/esotericsoftware/kryo/io/Input readInt (Z)I 2433 1 20531 0 0
+ciMethod com/esotericsoftware/kryo/io/Input readVarInt (Z)I 2433 1 13988 0 2240
+ciMethod com/esotericsoftware/kryo/io/Input readInt_slow (Z)I 41 1 1293 0 -1
+ciMethod com/esotericsoftware/kryo/io/Input readString ()Ljava/lang/String; 2401 1 28190 0 6464
+ciMethod com/esotericsoftware/kryo/io/Input readUtf8Length (I)I 3177 1 14111 0 -1
+ciMethod com/esotericsoftware/kryo/io/Input readUtf8Length_slow (I)I 9 1 104 0 -1
+ciMethod com/esotericsoftware/kryo/io/Input readUtf8 (I)V 913 33049 1350 0 -1
+ciMethod com/esotericsoftware/kryo/io/Input readAscii ()Ljava/lang/String; 1 1 798 0 -1
+ciMethod com/google/common/collect/Interner intern (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethodData com/esotericsoftware/kryo/io/Input require (I)I 2 18049 orig 264 88 131 167 114 0 0 0 0 136 127 141 23 0 0 0 0 32 4 0 0 48 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 249 0 0 0 65 44 2 0 65 16 0 0 66 44 0 0 128 1 0 0 2 0 0 0 1 0 32 0 2 0 0 0 208 2 0 0 255 255 255 255 7 0 12 0 0 0 0 0 data 90 0xc0007 0x210 0x20 0x4378 0x160007 0x210 0x130 0x0 0x210002 0x0 0x260005 0x0 0x0 0x0 0x0 0x0 0x2d0005 0x0 0x0 0x0 0x0 0x0 0x320005 0x0 0x0 0x0 0x0 0x0 0x360005 0x0 0x0 0x0 0x0 0x0 0x390005 0x0 0x0 0x0 0x0 0x0 0x3c0002 0x0 0x41e007 0x20e 0xa0 0x3 0x560005 0x0 0x250f5690 0x3 0x0 0x0 0x5c0007 0x3 0x30 0x0 0x650002 0x0 0x6f0007 0x3 0x20 0x0 0x8c0002 0x211 0xae0005 0x0 0x250f5690 0x211 0x0 0x0 0xb4e007 0x211 0x68 0x1 0xb90007 0x1 0x38 0x0 0xbc0003 0x0 0x60 0xc50002 0x1 0xcf0007 0x0 0xffffffffffffff68 0x211 0xd20003 0x211 0x18 oops 2 48 com/esotericsoftware/kryo/io/Input 66 com/esotericsoftware/kryo/io/Input
+ciMethodData com/esotericsoftware/kryo/io/Input fill ([BII)I 2 1862 orig 264 88 131 167 114 0 0 0 0 192 125 141 23 0 0 0 0 192 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 0 0 0 241 57 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 96 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 12 0x40007 0x73e 0x20 0x0 0x100005 0x14a 0x19f02ad0 0x21 0x19f02b80 0x5d2 0x1c0002 0x0 oops 2 6 org/gradle/internal/remote/internal/inet/SocketConnection$SocketInputStream 8 org/gradle/internal/io/StreamByteBuffer$StreamByteBufferInputStream
+ciMethodData org/gradle/internal/serialize/kryo/KryoBackedDecoder readString ()Ljava/lang/String; 2 19287 orig 264 88 131 167 114 0 0 0 0 232 49 141 23 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 1 0 0 89 81 2 0 1 0 0 0 151 25 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 6 0x10005 0x0 0x253b4ad0 0x4a2b 0x0 0x0 oops 1 2 org/gradle/internal/serialize/kryo/KryoBackedDecoder
+ciMethodData org/gradle/internal/serialize/kryo/KryoBackedDecoder readNullableString ()Ljava/lang/String; 2 22129 orig 264 88 131 167 114 0 0 0 0 176 50 141 23 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 1 0 0 25 96 2 0 1 0 0 0 202 28 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 64 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 8 0x40005 0x0 0x250f5690 0x4c03 0x0 0x0 0xb0002 0x0 oops 1 2 com/esotericsoftware/kryo/io/Input
+ciMethodData com/esotericsoftware/kryo/io/Input readString ()Ljava/lang/String; 2 28190 orig 264 88 131 167 114 0 0 0 0 160 148 141 23 0 0 0 0 128 2 0 0 24 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 1 0 0 145 103 3 0 1 0 0 0 202 86 0 0 0 0 0 0 2 0 0 0 0 0 14 0 2 0 0 0 56 1 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 39 0x20005 0x0 0x250f5690 0x6cf2 0x0 0x0 0x1c0007 0x69d4 0x30 0x31e 0x200002 0x31e 0x26e007 0x2e 0x48 0x69a7 0x2b0002 0x69a7 0x2e0003 0x69a8 0x28 0x330002 0x2e 0x380008 0x6 0x12e 0x40 0x44 0x40 0x80 0x40 0x620007 0x53af 0x20 0x355 0x6e0002 0x5704 0x7b0002 0x5705 oops 1 2 com/esotericsoftware/kryo/io/Input
+ciMethodData org/gradle/internal/serialize/kryo/KryoBackedDecoder maybeEndOfStream (Lcom/esotericsoftware/kryo/KryoException;)Ljava/lang/RuntimeException; 1 4 orig 264 88 131 167 114 0 0 0 0 208 42 141 23 0 0 0 0 64 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 240 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 30 0x10005 0x0 0x250f5330 0x4 0x0 0x0 0x60005 0x0 0x2cdb970 0x4 0x0 0x0 0x90007 0x0 0x90 0x4 0x100002 0x4 0x140005 0x0 0x253b47a0 0x4 0x0 0x0 0x170004 0x0 0x253b47a0 0x4 0x0 0x0 oops 4 2 com/esotericsoftware/kryo/KryoException 8 java/lang/String 20 java/io/EOFException 26 java/io/EOFException
+ciMethod org/gradle/api/internal/attributes/ImmutableAttributesFactory concat (Lorg/gradle/api/internal/attributes/ImmutableAttributes;Lorg/gradle/api/attributes/Attribute;Ljava/lang/Object;)Lorg/gradle/api/internal/attributes/ImmutableAttributes; 0 0 1 0 -1
+ciMethod org/gradle/api/internal/attributes/ImmutableAttributesFactory concat (Lorg/gradle/api/internal/attributes/ImmutableAttributes;Lorg/gradle/api/attributes/Attribute;Lorg/gradle/internal/isolation/Isolatable;)Lorg/gradle/api/internal/attributes/ImmutableAttributes; 0 0 1 0 -1
+ciMethod org/gradle/api/internal/attributes/DefaultImmutableAttributesFactory concat (Lorg/gradle/api/internal/attributes/ImmutableAttributes;Lorg/gradle/api/attributes/Attribute;Lorg/gradle/internal/isolation/Isolatable;)Lorg/gradle/api/internal/attributes/ImmutableAttributes; 2073 1 5427 0 2944
+ciMethod org/gradle/api/internal/attributes/DefaultImmutableAttributesFactory doConcatIsolatable (Lorg/gradle/api/internal/attributes/ImmutableAttributes;Lorg/gradle/api/attributes/Attribute;Lorg/gradle/internal/isolation/Isolatable;)Lorg/gradle/api/internal/attributes/ImmutableAttributes; 2065 4057 2686 0 -1
+ciMethod org/gradle/util/internal/SimpleMapInterner intern (Ljava/lang/String;)Ljava/lang/String; 2609 1 5719 0 0
+ciMethod org/gradle/util/internal/SimpleMapInterner intern (Ljava/lang/Object;)Ljava/lang/Object; 2529 1 5719 0 1472
+ciMethodData java/util/concurrent/ConcurrentHashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2 5525 orig 264 88 131 167 114 0 0 0 0 168 215 94 23 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 161 164 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 6 0x40005 0x0 0x1fe69090 0x1494 0x0 0x0 oops 1 2 java/util/concurrent/ConcurrentHashMap
+ciMethod org/gradle/api/internal/artifacts/ivyservice/resolveengine/result/DesugaredAttributeContainerSerializer read (Lorg/gradle/internal/serialize/Decoder;)Lorg/gradle/api/internal/attributes/ImmutableAttributes; 2065 313 7426 0 -1
+ciMethod org/gradle/api/attributes/Attribute of (Ljava/lang/String;Ljava/lang/Class;)Lorg/gradle/api/attributes/Attribute; 545 1 6672 0 0
+ciMethod org/gradle/api/attributes/Attribute <init> (Ljava/lang/String;Ljava/lang/Class;)V 545 1 6676 0 0
+ciMethod org/gradle/api/attributes/Attribute getName ()Ljava/lang/String; 1089 1 136 0 -1
+ciMethod org/gradle/api/attributes/Attribute equals (Ljava/lang/Object;)Z 2745 1 7783 0 -1
+ciMethod org/gradle/api/internal/attributes/UsageCompatibilityHandler doConcat (Lorg/gradle/api/internal/attributes/DefaultImmutableAttributesFactory;Lorg/gradle/api/internal/attributes/ImmutableAttributes;Lorg/gradle/api/attributes/Attribute;Lorg/gradle/internal/isolation/Isolatable;)Lorg/gradle/api/internal/attributes/ImmutableAttributes; 105 1 444 0 -1
+ciMethod org/gradle/internal/snapshot/impl/AbstractIsolatableScalarValue <init> (Ljava/lang/Object;)V 1769 1 12939 0 0
+ciMethod org/gradle/internal/snapshot/impl/AbstractScalarValueSnapshot <init> (Ljava/lang/Object;)V 1769 1 12939 0 0
+ciMethod org/gradle/internal/snapshot/impl/CoercingStringValueSnapshot <init> (Ljava/lang/String;Lorg/gradle/api/internal/model/NamedObjectInstantiator;)V 1417 1 8395 0 0
+ciMethod org/gradle/internal/snapshot/impl/StringValueSnapshot <init> (Ljava/lang/String;)V 1417 1 8824 0 0
+ciMethodData org/gradle/api/attributes/Attribute equals (Ljava/lang/Object;)Z 2 7783 orig 264 88 131 167 114 0 0 0 0 128 3 116 35 0 0 0 0 192 2 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 87 1 0 0 129 232 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 16 0 2 0 0 0 112 1 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 46 0x20007 0xf32 0x20 0xdde 0x80007 0x0 0xa0 0xf32 0xc0005 0x5 0x1cd68430 0xf2d 0x0 0x0 0x100005 0x5 0x1cd68430 0xf2d 0x0 0x0 0x130007 0xf32 0x20 0x0 0x190004 0x0 0x1cd68430 0xf32 0x0 0x0 0x250005 0x5 0x2cdb970 0xf2d 0x0 0x0 0x280007 0x27f 0x20 0xcb3 0x350005 0x0 0x2cdba00 0x27f 0x0 0x0 oops 5 10 org/gradle/api/attributes/Attribute 16 org/gradle/api/attributes/Attribute 26 org/gradle/api/attributes/Attribute 32 java/lang/String 42 java/lang/Class
+ciMethodData org/gradle/internal/serialize/kryo/KryoBackedDecoder readSmallInt ()I 2 12607 orig 264 88 131 167 114 0 0 0 0 72 48 141 23 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 1 0 0 121 128 1 0 1 0 0 0 27 24 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 64 0 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 8 0x50005 0x0 0x250f5690 0x300f 0x0 0x0 0xc0002 0x4 oops 1 2 com/esotericsoftware/kryo/io/Input
+ciMethodData com/esotericsoftware/kryo/io/Input readInt (Z)I 2 20531 orig 264 88 131 167 114 0 0 0 0 8 141 141 23 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 1 0 0 25 120 2 0 1 0 0 0 156 41 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 6 0x20005 0x0 0x250f5690 0x4f03 0x0 0x0 oops 1 2 com/esotericsoftware/kryo/io/Input
+ciMethodData com/esotericsoftware/kryo/io/Input readVarInt (Z)I 2 13988 orig 264 88 131 167 114 0 0 0 0 168 142 141 23 0 0 0 0 104 2 0 0 96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 1 0 0 161 171 1 0 1 0 0 0 126 24 0 0 0 0 0 0 2 0 0 0 0 0 17 0 2 0 0 0 24 1 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 35 0x20005 0x0 0x250f5690 0x3574 0x0 0x0 0x60007 0x34e8 0x30 0x8b 0xb0002 0x8b 0x2ae007 0x34e1 0x80 0x9 0x510007 0x9 0x60 0x0 0x720007 0x0 0x40 0x0 0x930007 0x0 0x20 0x0 0xb00007 0x0 0x38 0x34ea 0xb40003 0x34ea 0x18 oops 1 2 com/esotericsoftware/kryo/io/Input
+ciMethodData org/gradle/util/internal/SimpleMapInterner intern (Ljava/lang/Object;)Ljava/lang/Object; 2 5719 orig 264 88 131 167 114 0 0 0 0 208 51 238 30 0 0 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 58 1 0 0 217 168 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 96 0 0 0 255 255 255 255 4 145 2 0 0 0 0 0 data 12 0x29104 0x0 0x2cdb970 0x151b 0x0 0x0 0x50005 0x0 0x253b9cb0 0x151c 0x0 0x0 oops 2 2 java/lang/String 8 org/gradle/util/internal/SimpleMapInterner
+ciMethodData org/gradle/util/internal/SimpleMapInterner intern (Ljava/lang/String;)Ljava/lang/String; 2 5719 orig 264 88 131 167 114 0 0 0 0 16 51 238 30 0 0 0 0 32 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70 1 0 0 137 168 0 0 1 0 0 0 141 20 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 208 0 0 0 255 255 255 255 7 224 1 0 0 0 0 0 data 26 0x1e007 0x1511 0x20 0x1 0xb0005 0x0 0x1fe69090 0x1511 0x0 0x0 0x100104 0x0 0x2cdb970 0x12c6 0x0 0x0 0x150007 0x24b 0x20 0x12c6 0x200005 0x0 0x1fe69090 0x24b 0x0 0x0 oops 3 6 java/util/concurrent/ConcurrentHashMap 12 java/lang/String 22 java/util/concurrent/ConcurrentHashMap
+ciMethodData org/gradle/api/attributes/Attribute of (Ljava/lang/String;Ljava/lang/Class;)Lorg/gradle/api/attributes/Attribute; 2 6676 orig 264 88 131 167 114 0 0 0 0 168 255 115 35 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 68 0 0 0 129 206 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 2 0x60002 0x19d0 oops 0
+ciMethodData org/gradle/api/attributes/Attribute <init> (Ljava/lang/String;Ljava/lang/Class;)V 2 6676 orig 264 88 131 167 114 0 0 0 0 64 1 116 35 0 0 0 0 200 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 68 0 0 0 129 206 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 112 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 14 0x10002 0x19d0 0xf0005 0x101 0x2cdb970 0x18cf 0x0 0x0 0x180005 0x0 0x2cdba00 0x19d0 0x0 0x0 oops 2 4 java/lang/String 10 java/lang/Class
+ciMethodData org/gradle/internal/snapshot/impl/CoercingStringValueSnapshot <init> (Ljava/lang/String;Lorg/gradle/api/internal/model/NamedObjectInstantiator;)V 2 8395 orig 264 88 131 167 114 0 0 0 0 80 95 92 36 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 177 0 0 0 209 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 2 0x20002 0x201a oops 0
+ciMethodData org/gradle/internal/snapshot/impl/StringValueSnapshot <init> (Ljava/lang/String;)V 2 8824 orig 264 88 131 167 114 0 0 0 0 80 100 92 36 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 177 0 0 0 57 14 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 2 0x20002 0x21c7 oops 0
+ciMethodData org/gradle/internal/snapshot/impl/AbstractIsolatableScalarValue <init> (Ljava/lang/Object;)V 2 12939 orig 264 88 131 167 114 0 0 0 0 240 114 133 35 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 221 0 0 0 113 141 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 2 0x20002 0x31ae oops 0
+ciMethodData org/gradle/internal/snapshot/impl/AbstractScalarValueSnapshot <init> (Ljava/lang/Object;)V 2 12939 orig 264 88 131 167 114 0 0 0 0 160 120 133 35 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 221 0 0 0 113 141 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x31ae oops 0
+ciMethodData org/gradle/api/internal/attributes/DefaultImmutableAttributesFactory concat (Lorg/gradle/api/internal/attributes/ImmutableAttributes;Lorg/gradle/api/attributes/Attribute;Lorg/gradle/internal/isolation/Isolatable;)Lorg/gradle/api/internal/attributes/ImmutableAttributes; 2 5427 orig 264 88 131 167 114 0 0 0 0 200 57 3 30 0 0 0 0 192 2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 129 161 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 96 1 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 44 0x40005 0x0 0x1cd68430 0x1430 0x0 0x0 0x70007 0x57 0xd0 0x13d9 0xb0005 0x0 0x1cd68430 0x13d9 0x0 0x0 0x110005 0x0 0x1cd68430 0x13d9 0x0 0x0 0x140005 0x2 0x2cdb970 0x13d7 0x0 0x0 0x170007 0x1281 0x50 0x158 0x220005 0x0 0x22377150 0x1af 0x0 0x0 0x2a0005 0x0 0x1cd65360 0x1281 0x0 0x0 oops 6 2 org/gradle/api/attributes/Attribute 12 org/gradle/api/attributes/Attribute 18 org/gradle/api/attributes/Attribute 24 java/lang/String 34 org/gradle/api/internal/attributes/UsageCompatibilityHandler 40 org/gradle/api/internal/attributes/DefaultImmutableAttributesFactory
+ciMethodData org/gradle/api/internal/attributes/UsageCompatibilityHandler doConcat (Lorg/gradle/api/internal/attributes/DefaultImmutableAttributesFactory;Lorg/gradle/api/internal/attributes/ImmutableAttributes;Lorg/gradle/api/attributes/Attribute;Lorg/gradle/internal/isolation/Isolatable;)Lorg/gradle/api/internal/attributes/ImmutableAttributes; 1 444 orig 264 88 131 167 114 0 0 0 0 232 15 116 35 0 0 0 0 128 6 0 0 216 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13 0 0 0 121 13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 24 5 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 163 0x30007 0x1af 0x1e0 0x0 0x70005 0x0 0x0 0x0 0x0 0x0 0xd0005 0x0 0x0 0x0 0x0 0x0 0x100005 0x0 0x0 0x0 0x0 0x0 0x130007 0x0 0x130 0x0 0x1e0002 0x0 0x230005 0x0 0x0 0x0 0x0 0x0 0x270005 0x0 0x0 0x0 0x0 0x0 0x2a0005 0x0 0x0 0x0 0x0 0x0 0x2f0005 0x0 0x0 0x0 0x0 0x0 0x320005 0x0 0x0 0x0 0x0 0x0 0x350002 0x0 0x3e0004 0xffffffffffffffa9 0x1cd68680 0x158 0x22379430 0x57 0x410007 0x57 0xc8 0x158 0x460004 0x0 0x1cd68680 0x158 0x0 0x0 0x490005 0x0 0x1cd68680 0x158 0x0 0x0 0x4c0004 0x0 0x2cdb970 0x158 0x0 0x0 0x510003 0x158 0x78 0x590005 0x0 0x22379430 0x57 0x0 0x0 0x5e0005 0x0 0x223794e0 0x57 0x0 0x0 0x670005 0x1af 0x0 0x0 0x0 0x0 0x6a0007 0x1af 0x60 0x0 0x790005 0x0 0x0 0x0 0x0 0x0 0x7e0002 0x0 0x860005 0x1af 0x0 0x0 0x0 0x0 0x890007 0x1af 0x60 0x0 0x980005 0x0 0x0 0x0 0x0 0x0 0x9d0002 0x0 0xa50005 0x1af 0x0 0x0 0x0 0x0 0xa80007 0x1af 0x60 0x0 0xb70005 0x0 0x0 0x0 0x0 0x0 0xbc0002 0x0 0xc50005 0x0 0x1cd65360 0x1af 0x0 0x0 oops 8 62 org/gradle/internal/snapshot/impl/CoercingStringValueSnapshot 64 org/gradle/internal/snapshot/impl/IsolatedImmutableManagedValue 72 org/gradle/internal/snapshot/impl/CoercingStringValueSnapshot 78 org/gradle/internal/snapshot/impl/CoercingStringValueSnapshot 84 java/lang/String 93 org/gradle/internal/snapshot/impl/IsolatedImmutableManagedValue 99 org/gradle/api/attributes/Usage$Impl 159 org/gradle/api/internal/attributes/DefaultImmutableAttributesFactory
+ciMethod org/gradle/api/internal/artifacts/ivyservice/modulecache/StringDeduplicatingDecoder readSmallInt ()I 3753 1 5866 0 896
+ciMethod org/gradle/api/internal/artifacts/ivyservice/modulecache/StringDeduplicatingDecoder readString ()Ljava/lang/String; 3217 1 6714 0 1504
+ciMethod org/gradle/api/internal/artifacts/ivyservice/modulecache/StringDeduplicatingDecoder readByte ()B 2049 1 2724 0 0
+ciMethodData org/gradle/api/internal/artifacts/ivyservice/modulecache/StringDeduplicatingDecoder readSmallInt ()I 2 5866 orig 264 88 131 167 114 0 0 0 0 208 197 180 37 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 213 1 0 0 169 168 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 6 0x40005 0x0 0x253b4ad0 0x1515 0x0 0x0 oops 1 2 org/gradle/internal/serialize/kryo/KryoBackedDecoder
+ciMethodData org/gradle/api/internal/artifacts/ivyservice/modulecache/StringDeduplicatingDecoder readString ()Ljava/lang/String; 2 6714 orig 264 88 131 167 114 0 0 0 0 0 200 180 37 0 0 0 0 216 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 146 1 0 0 65 197 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 144 0 0 0 255 255 255 255 5 0 8 0 0 0 0 0 data 18 0x80005 0x0 0x253b4ad0 0x18a8 0x0 0x0 0xd0005 0x0 0x253b9cb0 0x18a8 0x0 0x0 0x120004 0x0 0x2cdb970 0x18a8 0x0 0x0 oops 3 2 org/gradle/internal/serialize/kryo/KryoBackedDecoder 8 org/gradle/util/internal/SimpleMapInterner 14 java/lang/String
+ciMethodData org/gradle/api/internal/artifacts/ivyservice/resolveengine/result/DesugaredAttributeContainerSerializer read (Lorg/gradle/internal/serialize/Decoder;)Lorg/gradle/api/internal/attributes/ImmutableAttributes; 2 7426 orig 264 88 131 167 114 0 0 0 0 184 92 111 35 0 0 0 0 8 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 1 224 0 0 153 143 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 21 0 2 0 0 0 184 2 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 87 0x50005 0x0 0x1cd65200 0x18e5 0x1cd652b0 0x31b 0x110007 0x1c00 0x288 0x11f3 0x150005 0x0 0x1cd65200 0x57b 0x1cd652b0 0xc78 0x1d0005 0x0 0x1cd65200 0x57b 0x1cd652b0 0xc78 0x270007 0x11f3 0xb8 0x0 0x330002 0x0 0x370005 0x0 0x0 0x0 0x0 0x0 0x3c0002 0x0 0x3f0005 0x0 0x0 0x0 0x0 0x0 0x450003 0x0 0x150 0x4b0007 0x11f3 0xb8 0x0 0x570002 0x0 0x5b0005 0x0 0x0 0x0 0x0 0x0 0x600002 0x0 0x630005 0x0 0x0 0x0 0x0 0x0 0x690003 0x0 0x98 0x6d0005 0x0 0x1cd65200 0x57b 0x1cd652b0 0xc78 0x7d0002 0x11f3 0x8a0002 0x11f3 0x8d0005 0x0 0x1cd65360 0x11f3 0x0 0x0 0x960003 0x11f3 0xfffffffffffffd90 oops 9 2 org/gradle/api/internal/artifacts/ivyservice/modulecache/StringDeduplicatingDecoder 4 org/gradle/internal/serialize/kryo/StringDeduplicatingKryoBackedDecoder 12 org/gradle/api/internal/artifacts/ivyservice/modulecache/StringDeduplicatingDecoder 14 org/gradle/internal/serialize/kryo/StringDeduplicatingKryoBackedDecoder 18 org/gradle/api/internal/artifacts/ivyservice/modulecache/StringDeduplicatingDecoder 20 org/gradle/internal/serialize/kryo/StringDeduplicatingKryoBackedDecoder 70 org/gradle/api/internal/artifacts/ivyservice/modulecache/StringDeduplicatingDecoder 72 org/gradle/internal/serialize/kryo/StringDeduplicatingKryoBackedDecoder 80 org/gradle/api/internal/attributes/DefaultImmutableAttributesFactory
+ciMethodData org/gradle/internal/serialize/kryo/KryoBackedDecoder readByte ()B 2 11734 orig 264 88 131 167 114 0 0 0 0 176 43 141 23 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 169 98 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 64 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 8 0x40005 0x0 0x250f5690 0x2c56 0x0 0x0 0xb0002 0x0 oops 1 2 com/esotericsoftware/kryo/io/Input
+ciMethodData com/esotericsoftware/kryo/io/Input readByte ()B 2 17442 orig 264 88 131 167 114 0 0 0 0 208 135 141 23 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 9 21 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 6 0x20005 0x0 0x250f5690 0x42a1 0x0 0x0 oops 1 2 com/esotericsoftware/kryo/io/Input
+ciMethod org/gradle/internal/serialize/kryo/StringDeduplicatingKryoBackedDecoder maybeEndOfStream (Lcom/esotericsoftware/kryo/KryoException;)Ljava/lang/RuntimeException; 0 0 1 0 0
+ciMethod org/gradle/internal/serialize/kryo/StringDeduplicatingKryoBackedDecoder readByte ()B 3729 1 5707 0 1536
+ciMethod org/gradle/internal/serialize/kryo/StringDeduplicatingKryoBackedDecoder readInt ()I 4097 1 12888 0 -1
+ciMethod org/gradle/internal/serialize/kryo/StringDeduplicatingKryoBackedDecoder readSmallInt ()I 4097 1 7924 0 128
+ciMethod org/gradle/internal/serialize/kryo/StringDeduplicatingKryoBackedDecoder readString ()Ljava/lang/String; 4097 1 11900 0 2688
+ciMethod org/gradle/internal/serialize/kryo/StringDeduplicatingKryoBackedDecoder readNullableString ()Ljava/lang/String; 4097 1 12888 0 -1
+ciMethodData org/gradle/api/internal/artifacts/ivyservice/modulecache/StringDeduplicatingDecoder readByte ()B 2 2724 orig 264 88 131 167 114 0 0 0 0 184 201 180 37 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 33 77 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 6 0x40005 0x0 0x253b4ad0 0x9a4 0x0 0x0 oops 1 2 org/gradle/internal/serialize/kryo/KryoBackedDecoder
+ciMethodData org/gradle/internal/serialize/kryo/StringDeduplicatingKryoBackedDecoder readNullableString ()Ljava/lang/String; 2 12888 orig 264 88 131 167 114 0 0 0 0 16 107 169 46 0 0 0 0 144 2 0 0 216 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 193 130 1 0 1 0 0 0 179 25 0 0 0 0 0 0 2 0 0 0 0 0 24 0 2 0 0 0 72 1 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 41 0x10005 0x0 0x1cd652b0 0x3058 0x0 0x0 0x70007 0x2e19 0x20 0x23f 0x100007 0x2e12 0x20 0x7 0x240007 0x2dfb 0x48 0x1e 0x400002 0x1e 0x480003 0x1e 0x18 0x530007 0x2a02 0x80 0x417 0x5a0005 0x0 0x250f5690 0x417 0x0 0x0 0x640004 0x0 0x2cdb970 0x419 0x0 0x0 0x6a0002 0x0 oops 3 2 org/gradle/internal/serialize/kryo/StringDeduplicatingKryoBackedDecoder 29 com/esotericsoftware/kryo/io/Input 35 java/lang/String
+ciMethodData org/gradle/internal/serialize/kryo/StringDeduplicatingKryoBackedDecoder readInt ()I 2 12888 orig 264 88 131 167 114 0 0 0 0 48 103 169 46 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 193 130 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 64 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 8 0x40005 0x0 0x250f5690 0x3058 0x0 0x0 0xb0002 0x0 oops 1 2 com/esotericsoftware/kryo/io/Input
+ciMethodData org/gradle/internal/serialize/kryo/StringDeduplicatingKryoBackedDecoder readString ()Ljava/lang/String; 2 11900 orig 264 88 131 167 114 0 0 0 0 176 105 169 46 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 225 99 1 0 1 0 0 0 159 22 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 6 0x10005 0x0 0x1cd652b0 0x2c7c 0x0 0x0 oops 1 2 org/gradle/internal/serialize/kryo/StringDeduplicatingKryoBackedDecoder
+ciMethodData org/gradle/internal/serialize/kryo/StringDeduplicatingKryoBackedDecoder readByte ()B 2 5707 orig 264 88 131 167 114 0 0 0 0 120 99 169 46 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 210 1 0 0 201 163 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 64 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 8 0x40005 0x0 0x250f5690 0x1479 0x0 0x0 0xb0002 0x0 oops 1 2 com/esotericsoftware/kryo/io/Input
+ciMethodData org/gradle/internal/serialize/kryo/StringDeduplicatingKryoBackedDecoder maybeEndOfStream (Lcom/esotericsoftware/kryo/KryoException;)Ljava/lang/RuntimeException; 1 0 orig 264 88 131 167 114 0 0 0 0 152 98 169 46 0 0 0 0 64 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 240 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 30 0x10005 0x0 0x0 0x0 0x0 0x0 0x60005 0x0 0x0 0x0 0x0 0x0 0x90007 0x0 0x90 0x0 0x100002 0x0 0x140005 0x0 0x0 0x0 0x0 0x0 0x170004 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData org/gradle/internal/serialize/kryo/StringDeduplicatingKryoBackedDecoder readSmallInt ()I 2 7924 orig 264 88 131 167 114 0 0 0 0 16 104 169 46 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 161 231 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 64 0 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 8 0x50005 0x0 0x250f5690 0x1cf4 0x0 0x0 0xc0002 0x0 oops 1 2 com/esotericsoftware/kryo/io/Input
+ciMethod java/util/concurrent/ConcurrentHashMap$TreeBin putTreeVal (ILjava/lang/Object;Ljava/lang/Object;)Ljava/util/concurrent/ConcurrentHashMap$TreeNode; 0 0 1 0 -1
+ciMethodData com/esotericsoftware/kryo/KryoException <init> (Ljava/lang/String;)V 1 4 orig 264 88 131 167 114 0 0 0 0 160 83 141 23 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 25 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 2 0x20002 0x3 oops 0
+ciMethodData com/esotericsoftware/kryo/KryoException <init> (Ljava/lang/Throwable;)V 1 0 orig 264 88 131 167 114 0 0 0 0 80 84 141 23 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 2 0x20002 0x0 oops 0
+instanceKlass com/android/tools/idea/gradle/project/sync/idea/svs/SelectedVariantChooserKt$syncAndAddVariant$1
+instanceKlass com/google/common/base/Joiner
+instanceKlass com/android/utils/FileUtils
+instanceKlass com/android/tools/idea/gradle/project/sync/Modules
+instanceKlass com/android/tools/idea/gradle/project/sync/idea/svs/SelectedVariantChooserKt
+instanceKlass com/android/build/gradle/internal/ide/FailsafeModelBuilderParameter
+instanceKlass com/android/tools/idea/gradle/project/sync/idea/svs/AndroidExtraModelProvider$findParameterizedAndroidModel$model$1
+instanceKlass com/android/builder/model/ModelBuilderParameter
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformationNodeRegistry$1
+instanceKlass org/gradle/api/internal/artifacts/repositories/metadata/DefaultMavenImmutableAttributesFactory$1
+instanceKlass org/gradle/internal/operations/BuildOperationDescriptor$1
+instanceKlass org/gradle/internal/serialize/CausePlaceholder
+instanceKlass org/gradle/internal/serialize/ExceptionPlaceholder$1
+instanceKlass org/gradle/internal/serialize/ExceptionReplacingObjectOutputStream$2
+instanceKlass java/lang/Throwable$PrintStreamOrWriter
+instanceKlass org/gradle/internal/buildevents/BuildExceptionReporter$1
+instanceKlass org/gradle/internal/logging/text/BufferingStyledTextOutput$ChangeStyleAction
+instanceKlass org/gradle/internal/logging/text/BufferingStyledTextOutput$1
+instanceKlass org/gradle/internal/buildevents/BuildExceptionReporter$FailureDetails
+instanceKlass java/util/logging/LogRecord
+instanceKlass org/codehaus/groovy/runtime/StackTraceUtils
+instanceKlass org/gradle/internal/exceptions/Contextual
+instanceKlass org/gradle/cache/internal/btree/FileBackedBlockStore$1
+instanceKlass javax/xml/stream/events/EndElement
+instanceKlass com/google/common/base/Splitter$2
+instanceKlass com/android/build/gradle/internal/ide/DependencyFailureHandlerKt
+instanceKlass com/google/common/base/Equivalence$1
+instanceKlass org/gradle/api/artifacts/result/UnresolvedDependencyResult
+instanceKlass org/gradle/internal/resolve/ModuleVersionResolveException$$Lambda$1024
+instanceKlass org/gradle/internal/logging/text/TreeFormatter$Node
+instanceKlass org/gradle/internal/logging/text/TreeFormatter
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/DefaultUnresolvedDependency
+instanceKlass org/gradle/api/artifacts/UnresolvedDependency
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/DependencyGraphPathResolver
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/oldresult/ResolutionFailureCollector$BrokenDependency
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/builder/VirtualPlatformState$$Lambda$1023
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/builder/VirtualPlatformState
+instanceKlass org/gradle/internal/resolve/ModuleVersionNotFoundException$$Lambda$1022
+instanceKlass org/gradle/api/internal/artifacts/repositories/resolver/DefaultExternalResourceArtifactResolver
+instanceKlass org/gradle/internal/typeconversion/NotationConverterToNotationParserAdapter$1
+instanceKlass org/gradle/internal/remote/internal/inet/SocketConnection$1
+instanceKlass com/google/protobuf/ByteString$CodedBuilder
+instanceKlass com/google/protobuf/Utf8$Processor
+instanceKlass com/google/protobuf/Utf8
+instanceKlass com/google/protobuf/WireFormat
+instanceKlass com/google/protobuf/UnsafeUtil$1
+instanceKlass com/google/protobuf/UnsafeUtil$MemoryAccessor
+instanceKlass com/google/protobuf/UnsafeUtil
+instanceKlass com/google/protobuf/Writer
+instanceKlass com/google/protobuf/ByteOutput
+instanceKlass com/google/protobuf/ByteString$2
+instanceKlass com/google/protobuf/ByteString$ArraysByteArrayCopier
+instanceKlass com/google/protobuf/Android
+instanceKlass com/google/protobuf/ByteString$ByteIterator
+instanceKlass com/google/protobuf/ByteString$ByteArrayCopier
+instanceKlass com/google/wireless/android/play/playlog/proto/ClientAnalytics$LogEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioEvent$EventKind$1
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioEvent$EventCategory$1
+instanceKlass com/google/wireless/android/sdk/stats/GradleSyncIssueOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/IntellijProjectSizeStatsOrBuilder
+instanceKlass org/gradle/internal/work/DefaultWorkerLeaseService$1
+instanceKlass org/gradle/tooling/internal/provider/SessionScopeBuildActionExecuter$1
+instanceKlass org/gradle/cache/internal/VersionSpecificCacheCleanupAction$CleanupCondition
+instanceKlass org/gradle/cache/internal/VersionSpecificCacheDirectory
+instanceKlass org/apache/commons/io/filefilter/ConditionalFileFilter
+instanceKlass org/apache/commons/io/filefilter/AbstractFileFilter
+instanceKlass org/apache/commons/io/filefilter/FileFilterUtils
+instanceKlass org/gradle/cache/internal/VersionSpecificCacheCleanupAction$MinimumTimestampProvider
+instanceKlass org/gradle/cache/internal/VersionSpecificCacheCleanupAction
+instanceKlass org/gradle/cache/internal/SingleDepthFilesFinder$1
+instanceKlass org/gradle/cache/internal/NonReservedFileFilter
+instanceKlass org/gradle/cache/internal/CleanupActionFactory$BuildOperationCacheCleanupDecorator$1
+instanceKlass org/gradle/cache/internal/DefaultCleanupProgressMonitor
+instanceKlass org/gradle/cache/internal/DefaultMultiProcessSafePersistentIndexedCache$4
+instanceKlass org/gradle/workers/internal/WorkerDaemonClientsManager$StopSessionScopedWorkers$$Lambda$1021
+instanceKlass org/gradle/workers/internal/WorkerDaemonClient
+instanceKlass org/gradle/process/internal/health/memory/JvmMemoryStatusSnapshot
+instanceKlass org/gradle/execution/PassThruCancellableOperationManager
+instanceKlass org/apache/tools/ant/ComponentHelper$$Lambda$1020
+instanceKlass org/apache/tools/ant/ComponentHelper$$Lambda$1019
+instanceKlass org/apache/tools/ant/IntrospectionHelper$AttributeSetter
+instanceKlass org/apache/tools/ant/IntrospectionHelper$NestedCreator
+instanceKlass org/apache/tools/ant/IntrospectionHelper
+instanceKlass org/gradle/internal/vfs/impl/DefaultVirtualFileSystem$$Lambda$1018
+instanceKlass org/gradle/internal/snapshot/SnapshotHierarchy$SnapshotVisitor
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioEvent$1
+instanceKlass org/gradle/internal/vfs/impl/DefaultVirtualFileSystem$$Lambda$1017
+instanceKlass org/gradle/launcher/exec/BuildActionResult
+instanceKlass org/gradle/api/internal/tasks/execution/statistics/TaskExecutionStatistics
+instanceKlass com/google/wireless/android/sdk/stats/ParallelAndroidTestReportUiEventOrBuilder
+instanceKlass org/gradle/internal/buildevents/TaskExecutionStatisticsReporter
+instanceKlass com/google/wireless/android/sdk/stats/BuildAttributionUiEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/IntellijIndexingStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/StudioToolWindowActionStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AndroidProfilerDbStatsOrBuilder
+instanceKlass org/gradle/internal/logging/text/AbstractStyledTextOutput$StyleOverrideTextOutput
+instanceKlass com/google/wireless/android/sdk/stats/BuildAttributionStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/DynamicLayoutInspectorEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/MotionLayoutEditorEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/WhatsNewAssistantUpdateEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/GradlePluginDslUsageStatsOrBuilder
+instanceKlass org/gradle/api/internal/artifacts/DependencyManagementBuildScopeServices$3$$Lambda$1016
+instanceKlass com/google/wireless/android/sdk/stats/StudioUpdateFlowEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/WindowsDefenderStatusOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/EditorHighlightingStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/WhatsNewAssistantEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/FirebaseContextDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/StudioPerformanceStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/LldbSessionStartDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/DefaultActivityLocatorStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/EditorCompletionStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/BuildOutputWindowStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/ConnectionAssistantEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AndroidCppExtensionEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AppLinksAssistantEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/DesignEditorHelpPanelEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/GradlePluginUpgradeDialogStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/LldbSessionEndDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/StudioPatchUpdaterEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/EmulatorPerformanceStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/OomDialogEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/KotlinSupportOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/LayoutInspectorEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/ApkDebugProjectOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/GradleSyncStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/CMakeEditingEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/ImportSampleEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/NavEditorEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/DialogStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/JniInspectionEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/RunEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/UserSentimentOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/DataBindingEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/StudioCrashOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/DeviceInfoOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/ProductDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/TestRunOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AdbAssistantStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/LldbPerformanceStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/LayoutEditorEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/EmulatorDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/MachineDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/HypervisorOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/EmulatorUiEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/FirebaseErrorDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/GradleBuildDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/JvmDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/TestRecorderDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/LLDBFrontendDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/EmulatorHostOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/ApkAnalyzerStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AndroidProfilerEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/UIActionStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/MetaMetricsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/StudioProjectChangeOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/InstantRunOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/GfxTracingDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/IdePluginInfoOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/ResourceManagerEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/TypingLatencyStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/ComposeSampleEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/MemorySettingsEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/PSDEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/StudioRunEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/LintActionOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/LintSessionOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/CppHeadersViewEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/MultiViewEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/DaggerEditorEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/NavSafeArgsEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/MlModelBindingEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AvdLaunchEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AppInspectionEventOrBuilder
+instanceKlass org/jetbrains/kotlin/compilerRunner/GradleCompilerRunner$Companion
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioEventOrBuilder
+instanceKlass org/jetbrains/kotlin/gradle/plugin/statistics/KotlinBuildStatHandler$reportGlobalMetrics$statisticOverhead$1$1
+instanceKlass org/jetbrains/kotlin/gradle/plugin/statistics/KotlinBuildStatHandler$reportGlobalMetrics$2
+instanceKlass com/google/common/cache/LocalCache$WriteThroughEntry
+instanceKlass com/google/common/cache/LocalCache$HashIterator
+instanceKlass java/lang/Math$RandomNumberGeneratorHolder
+instanceKlass com/android/builder/profile/ProcessProfileWriterFactory$$Lambda$1015
+instanceKlass com/sun/jmx/mbeanserver/Repository$ObjectNamePattern
+instanceKlass org/gradle/api/services/internal/BuildServiceProvider$$Lambda$1014
+instanceKlass com/google/common/collect/ImmutableList$SerializedForm
+instanceKlass com/google/common/collect/ImmutableSet$SerializedForm
+instanceKlass com/google/common/collect/ImmutableMap$SerializedForm
+instanceKlass org/gradle/kotlin/dsl/tooling/builders/StandardKotlinDslScriptModel
+instanceKlass org/gradle/tooling/model/kotlin/dsl/KotlinDslScriptModel
+instanceKlass com/android/build/gradle/internal/ide/DefaultProjectSyncIssues$Companion
+instanceKlass com/android/build/gradle/internal/ide/DefaultProjectSyncIssues
+instanceKlass com/android/builder/model/ProjectSyncIssues
+instanceKlass com/android/ide/gradle/model/artifacts/AdditionalClassifierArtifacts
+instanceKlass com/android/ide/gradle/model/artifacts/impl/AdditionalClassifierArtifactsModelImpl
+instanceKlass com/android/ide/gradle/model/ArtifactIdentifierImpl
+instanceKlass com/android/ide/gradle/model/artifacts/impl/AdditionalClassifierArtifactsImpl
+instanceKlass com/android/ide/gradle/model/artifacts/AdditionalClassifierArtifacts
+instanceKlass com/android/ide/gradle/model/artifacts/builder/AdditionalClassifierArtifactsModelBuilder$buildAll$ids$1$1
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$MethodInvocationCache$MethodInvocationKey
+instanceKlass com/android/ide/gradle/model/ArtifactIdentifier
+instanceKlass org/gradle/tooling/internal/adapter/MethodInvocation
+instanceKlass org/gradle/tooling/provider/model/internal/DefaultToolingModelBuilderRegistry$ParameterizedBuildOperationWrappingToolingModelBuilder$1$1
+instanceKlass org/gradle/tooling/provider/model/internal/DefaultToolingModelBuilderRegistry$ParameterizedBuildOperationWrappingToolingModelBuilder$1
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$AdaptingMethodInvoker
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$PropertyCachingMethodInvoker
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$SafeMethodInvoker
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$SupportedPropertyInvoker
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$InvocationHandlerImpl
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$ViewKey
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$ViewGraphDetails
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$MixInMappingAction
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$DefaultViewBuilder
+instanceKlass org/gradle/tooling/internal/adapter/CollectionMapper
+instanceKlass org/gradle/tooling/internal/adapter/TypeInspector
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$MethodInvocationCache
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$ReflectionMethodInvoker
+instanceKlass org/gradle/tooling/internal/adapter/MethodInvoker
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$1
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$NoOpDecoration
+instanceKlass org/gradle/tooling/internal/adapter/ViewBuilder
+instanceKlass org/gradle/tooling/internal/adapter/TargetTypeProvider
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter$ViewDecoration
+instanceKlass org/gradle/tooling/internal/adapter/ProtocolToModelAdapter
+instanceKlass org/gradle/tooling/internal/adapter/ObjectGraphAdapter
+instanceKlass com/android/ide/gradle/model/AdditionalClassifierArtifactsModelParameter
+instanceKlass org/gradle/tooling/internal/consumer/connection/ToolingParameterProxy
+instanceKlass com/android/tools/idea/gradle/project/sync/idea/AdditionalClassifierArtifactsModelCollectorKt$getAdditionalClassifierArtifactsModel$$inlined$forEach$lambda$1
+instanceKlass com/android/ide/gradle/model/AdditionalClassifierArtifactsModelParameter
+instanceKlass com/android/ide/gradle/model/artifacts/AdditionalClassifierArtifactsModel
+instanceKlass com/android/ide/gradle/model/ArtifactIdentifierImpl
+instanceKlass com/android/ide/gradle/model/ArtifactIdentifier
+instanceKlass kotlin/collections/ArrayAsCollection
+instanceKlass kotlin/jvm/internal/markers/KMappedMarker
+instanceKlass kotlin/collections/CollectionsKt__CollectionsJVMKt
+instanceKlass com/google/common/collect/ObjectArrays
+instanceKlass com/google/common/collect/UnmodifiableIterator
+instanceKlass com/android/ide/common/repository/GradleVersion$VersionSegment
+instanceKlass com/google/common/base/AbstractIterator$1
+instanceKlass com/google/common/collect/CollectPreconditions
+instanceKlass com/google/common/collect/Lists
+instanceKlass com/google/common/base/Splitter$5
+instanceKlass com/google/common/base/AbstractIterator
+instanceKlass com/google/common/base/Splitter$1
+instanceKlass com/google/common/base/Preconditions
+instanceKlass com/google/common/base/CharMatcher
+instanceKlass com/google/common/base/Predicate
+instanceKlass com/google/common/base/CommonPattern
+instanceKlass com/google/common/base/Splitter$Strategy
+instanceKlass com/google/common/base/Splitter
+instanceKlass com/android/ide/common/repository/GradleVersion
+instanceKlass com/android/tools/idea/gradle/project/sync/idea/AdditionalClassifierArtifactsModelCollectorKt
+instanceKlass com/android/builder/model/level2/Library
+instanceKlass com/android/build/gradle/internal/ide/level2/GlobalLibraryMapImpl
+instanceKlass com/android/builder/model/level2/GlobalLibraryMap
+instanceKlass com/android/tools/idea/gradle/project/sync/idea/svs/VariantGroup
+instanceKlass com/android/tools/idea/gradle/project/sync/idea/svs/AndroidModule
+instanceKlass com/android/utils/TokenizedCommandLineMap
+instanceKlass com/android/build/gradle/internal/cxx/json/CompileCommandFlagListInterner
+instanceKlass com/android/build/gradle/internal/cxx/gradle/generator/NativeAndroidProjectBuilder
+instanceKlass com/android/build/gradle/internal/plugins/BasePlugin$$Lambda$1013
+instanceKlass com/android/builder/model/NativeAndroidProject
+instanceKlass com/android/builder/model/NativeToolchain
