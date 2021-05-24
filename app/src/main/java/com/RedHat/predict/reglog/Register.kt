@@ -1,24 +1,53 @@
 package com.RedHat.predict.reglog
 
+import android.R
 import android.app.Activity
 import android.os.Bundle
+import android.view.View
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.RedHat.predict.databinding.ActivityRegisterBinding
 import com.RedHat.predict.db.users
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.DatabaseReference
 
 import com.google.firebase.database.FirebaseDatabase
 
 class Register : AppCompatActivity() {
     private lateinit var RegisterBinding: ActivityRegisterBinding
-
+     private lateinit var mAuth : FirebaseAuth
+    private lateinit var refUsers : DatabaseReference
+    private var  firebaseuserid: String =""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         RegisterBinding = ActivityRegisterBinding.inflate(layoutInflater)
         setContentView(RegisterBinding.root)
-
+//        val languages = resources.getStringArray(R.array)
+//
+//        // access the spinner
+////        val spinner = findViewById<Spinner>(R.id.spinner)
+//        if (RegisterBinding.edtLokasi != null) {
+//            val adapter = ArrayAdapter(this,
+//                R.layout.simple_spinner_item, languages)
+//            RegisterBinding.edtLokasi .adapter = adapter
+//
+//            RegisterBinding.edtLokasi.onItemSelectedListener = object :
+//                AdapterView.OnItemSelectedListener {
+//                override fun onItemSelected(parent: AdapterView<*>,
+//                                            view: View, position: Int, id: Long) {
+//                    Toast.makeText(this@Register,
+//                        "" + languages[position], Toast.LENGTH_SHORT).show()
+//                }
+//
+//                override fun onNothingSelected(parent: AdapterView<*>) {
+//                    // write code to perform some action
+//                }
+//            }
+//        }
 
 
 //        RegisterBinding.btnSubmit.setOnClickListener { it ->
@@ -44,12 +73,40 @@ class Register : AppCompatActivity() {
 //                        toast("Data tersimpan")
 //                    }
 //        }
+        mAuth = FirebaseAuth.getInstance()
 
         RegisterBinding.btnSubmit.setOnClickListener {
-            savedata()
+
+            registeruser()
+//            savedata()
         }
     }
 
+
+    private fun registeruser(){
+        val nama = RegisterBinding.edtNama.text.toString()
+
+        val email = RegisterBinding.edtEmail.text.toString()
+        val password = RegisterBinding.edtPassword.text.toString()
+        mAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener{
+            task->
+            if(task.isSuccessful)
+            {
+                    Toast.makeText(this, "Successs", Toast.LENGTH_SHORT).show()
+                    firebaseuserid = mAuth.currentUser!!.uid
+                    refUsers = FirebaseDatabase.getInstance().reference.child("pengguna").child(firebaseuserid)
+
+            }
+            else{
+                Toast.makeText(this, "gagal", Toast.LENGTH_SHORT).show()
+
+            }
+        }
+
+
+
+
+    }
     private fun savedata() {
         val ref =   FirebaseDatabase.getInstance().getReference("USERS")
         val userId = ref.push().key.toString()

@@ -1,9 +1,26 @@
 <resources>
     <string name="app_name">Predict</string>
+
+    <string-array name="location">
+        <item>Angke</item>
+        <item>Cisadane</item>
+
+    </string-array>
+    <string-array name="Languages">
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>Swift</item>
+        <item>Python</item>
+        <item>Scala</item>
+        <item>Perl</item>
+    </string-array>
+
+
     <string name="title">Judul</string>
     <string name="nama">Nama</string>
     <string name="email"> Email </string>
     <string name="password"> Password </string>
+    <string name="Lokasi"> Lokasi </string>
     <string name="submit">Submit</string>
     <string name="loginadmin">Login Admin</string>
     <string name="loginuser">Login User</string>
@@ -20,4 +37,6 @@
     <string name="tvshow">prediksi</string>
     <string name="reqtoken">700362298333-eaf0u4j1np3a6cvanphgf9jhsstrorbc.apps.googleusercontent.com</string>
     <string name="logout">Logout</string>
+
+
 </resources>

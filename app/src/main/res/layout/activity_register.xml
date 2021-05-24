@@ -10,7 +10,8 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp">
+        android:layout_marginBottom="16dp"
+        android:maxLines="1" >
         <EditText
             android:id="@+id/edt_nama"
             android:layout_width="match_parent"
@@ -22,7 +23,8 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp">
+        android:layout_marginBottom="16dp"
+        android:maxLines="1" >
         <EditText
             android:id="@+id/edt_email"
             android:layout_width="match_parent"
@@ -33,7 +35,8 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp">
+        android:layout_marginBottom="16dp"
+        android:maxLines="1" >
         <EditText
             android:id="@+id/edt_password"
             android:layout_width="match_parent"
@@ -41,6 +44,23 @@
             android:hint="@string/password"
             android:maxLines="1" />
     </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:maxLines="1"
+        android:visibility="gone"
+        >
+        <Spinner
+            android:id="@+id/edt_lokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Lokasi"
+            android:maxLines="1"
+            android:visibility="gone"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
 
     <Button
         android:id="@+id/btn_submit"

@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         activityMainBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(activityMainBinding.root)
+
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.reqtoken))
             .requestEmail()
@@ -33,12 +34,18 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.elevation = 0f
 
         activityMainBinding.btnLogout.setOnClickListener {
-            mGoogleSignInClient.signOut().addOnCompleteListener {
-                val intent= Intent(this, LoginActivity::class.java)
-                Toast.makeText(this,"Logging Out",Toast.LENGTH_SHORT).show()
-                startActivity(intent)
-                finish()
-            }
+//            mGoogleSignInClient.signOut().addOnCompleteListener {
+//                val intent= Intent(this, LoginActivity::class.java)
+//                Toast.makeText(this,"Logging Out",Toast.LENGTH_SHORT).show()
+//                startActivity(intent)
+//                finish()
+//            }
+            FirebaseAuth.getInstance().signOut()
+
+            val intent = Intent(this@MainActivity, LoginActivity::class.java)
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK)
+            startActivity(intent)
+            finish()
         }
     }
 }
