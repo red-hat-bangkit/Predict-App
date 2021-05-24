@@ -35,7 +35,9 @@
         android:layout_marginTop="30dp"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
+        android:maxLines="1"
         app:layout_constraintTop_toBottomOf="@id/cardView">
+
     <EditText
         android:id="@+id/edt_email"
         android:layout_width="match_parent"
@@ -62,17 +64,27 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btn_login"
+        android:id="@+id/btn_user"
         style="@style/Base.Widget.AppCompat.Button.Colored"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sign_in"
         android:layout_margin="30dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="36dp"
+        android:text="@string/loginuser"
+         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tf_pass" />
+
+    <Button
+        android:id="@+id/btn_admin"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/loginadmin"
+        app:layout_constraintTop_toBottomOf="@id/tf_pass"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tf_pass"/>
+        tools:layout_editor_absoluteX="220dp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -85,6 +97,6 @@
         android:layout_marginStart="100dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_login"/>
+        app:layout_constraintTop_toBottomOf="@+id/btn_admin"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

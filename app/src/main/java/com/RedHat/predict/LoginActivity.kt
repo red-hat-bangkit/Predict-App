@@ -36,8 +36,11 @@ class LoginActivity : AppCompatActivity() {
             .requestEmail()
             .build()
         mGoogleSignInClient= GoogleSignIn.getClient(this,gso)// initialize the firebaseAuth variable firebaseAuth= FirebaseAuth.getInstance()
-        binding.btnLogin.setOnClickListener{ view: View? ->
+        binding.btnUser.setOnClickListener{ view: View? ->
             signInGoogle()
+        }
+        binding.btnAdmin.setOnClickListener { view: View? ->
+            val intent = Intent(this, MainActivity::class.java)
         }
         binding.btnReg.setOnClickListener{ view: View? ->
             val intent= Intent(this, Register::class.java)

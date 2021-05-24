@@ -5,7 +5,8 @@
     <string name="email"> Email </string>
     <string name="password"> Password </string>
     <string name="submit">Submit</string>
-    <string name="sign_in">Sign In</string>
+    <string name="loginadmin">Login Admin</string>
+    <string name="loginuser">Login User</string>
     <string name="delete">Hapus</string>
     <string name="date">Date</string>
     <string name="bencana">Bencana</string>
