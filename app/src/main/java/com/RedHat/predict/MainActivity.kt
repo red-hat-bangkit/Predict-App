@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             .requestIdToken(getString(R.string.reqtoken))
             .requestEmail()
             .build()
-        mGoogleSignInClient= GoogleSignIn.getClient(this,gso)
+        mGoogleSignInClient = GoogleSignIn.getClient(this, gso)
         val sectionsPagerAdapter = SectionsPagerAdapter(this, supportFragmentManager)
         activityMainBinding.viewPager.adapter = sectionsPagerAdapter
         activityMainBinding.tabs.setupWithViewPager(activityMainBinding.viewPager)

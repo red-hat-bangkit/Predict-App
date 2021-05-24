@@ -71,6 +71,7 @@
         android:layout_margin="30dp"
         android:layout_marginTop="36dp"
         android:text="@string/loginuser"
+       android:background="@color/bluebutton"
          app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tf_pass" />
 
@@ -82,6 +83,7 @@
         android:layout_margin="30dp"
         android:layout_marginTop="30dp"
         android:text="@string/loginadmin"
+        android:background="@color/bluebutton"
         app:layout_constraintTop_toBottomOf="@id/tf_pass"
         app:layout_constraintEnd_toEndOf="parent"
         tools:layout_editor_absoluteX="220dp" />

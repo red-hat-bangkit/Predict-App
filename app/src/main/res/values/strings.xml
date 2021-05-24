@@ -29,6 +29,8 @@
     <string name="bencana">Bencana</string>
     <string name="wilayah">Wilayah</string>
     <string name="LongLat">Long,Lat</string>
+    <string name="confident">Confident</string>
+    <string name="jam">Waktu</string>
     <string name="register">Create Account</string>
 
     <!-- TODO: Remove or change this placeholder text -->

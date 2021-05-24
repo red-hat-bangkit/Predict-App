@@ -7,4 +7,7 @@
     <color name="pink_700">#c2185b</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="bluebg">#E0FFFF</color>
+    <color name="bluebutton">#6497b1</color>
+    <color name="blue2">#b3cde0</color>
 </resources>
