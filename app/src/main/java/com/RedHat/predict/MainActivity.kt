@@ -3,6 +3,8 @@ package com.RedHat.predict
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Toast
 import com.RedHat.predict.databinding.ActivityMainBinding
 import com.RedHat.predict.home.SectionsPagerAdapter
@@ -33,13 +35,24 @@ class MainActivity : AppCompatActivity() {
         activityMainBinding.tabs.setupWithViewPager(activityMainBinding.viewPager)
         supportActionBar?.elevation = 0f
 
-        activityMainBinding.btnLogout.setOnClickListener {
-//            mGoogleSignInClient.signOut().addOnCompleteListener {
-//                val intent= Intent(this, LoginActivity::class.java)
-//                Toast.makeText(this,"Logging Out",Toast.LENGTH_SHORT).show()
-//                startActivity(intent)
-//                finish()
-//            }
+
+    }
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.main_menu, menu)
+
+        var actionBar = getSupportActionBar()
+
+        if (actionBar != null) {
+
+
+            actionBar.setDisplayHomeAsUpEnabled(true)
+        }
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+
+        if (item.itemId == R.id.btnlogout) {
             FirebaseAuth.getInstance().signOut()
 
             val intent = Intent(this@MainActivity, LoginActivity::class.java)
@@ -47,5 +60,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+
+        return super.onOptionsItemSelected(item)
     }
+
+
+
 }
