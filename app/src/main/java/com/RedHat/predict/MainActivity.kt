@@ -6,7 +6,10 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.RedHat.predict.databinding.ActivityMainBinding
+import com.RedHat.predict.db.PredictAdapter
 import com.RedHat.predict.home.SectionsPagerAdapter
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
@@ -15,7 +18,8 @@ import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity() {
     lateinit var mGoogleSignInClient: GoogleSignInClient
-
+    private lateinit var mainViewModel: MainViewModel
+    private lateinit var adapter: PredictAdapter
     private val auth by lazy {
         FirebaseAuth.getInstance()
     }
@@ -30,33 +34,54 @@ class MainActivity : AppCompatActivity() {
             .requestEmail()
             .build()
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso)
-        val sectionsPagerAdapter = SectionsPagerAdapter(this, supportFragmentManager)
-        activityMainBinding.viewPager.adapter = sectionsPagerAdapter
-        activityMainBinding.tabs.setupWithViewPager(activityMainBinding.viewPager)
-        supportActionBar?.elevation = 0f
+//        val sectionsPagerAdapter = SectionsPagerAdapter(this, supportFragmentManager)
+//        activityMainBinding.viewPager.adapter = sectionsPagerAdapter
+//        activityMainBinding.tabs.setupWithViewPager(activityMainBinding.viewPager)
+//        supportActionBar?.elevation = 0f
+        showRecyclerList()
 
 
+
+    }
+
+    private fun showRecyclerList(){
+        adapter = PredictAdapter()
+        adapter.notifyDataSetChanged()
+        activityMainBinding.rvPredict.layoutManager = LinearLayoutManager(this)
+        activityMainBinding.rvPredict.adapter= adapter
+
+        mainViewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory()).get(MainViewModel::class.java)
+        mainViewModel.getGith().observe(this, { Github ->
+            if (Github != null) {
+                adapter.setData(Github)
+            }
+        })
+        mainViewModel.getListQuotes("Kampung Kelapa","3","2021-06-01")
     }
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.main_menu, menu)
 
-        var actionBar = getSupportActionBar()
 
-        if (actionBar != null) {
-
-
-            actionBar.setDisplayHomeAsUpEnabled(true)
-        }
         return super.onCreateOptionsMenu(menu)
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
+//
+//        if (item.itemId == R.id.btnlogout) {
+//            FirebaseAuth.getInstance().signOut()
+//
+//            val intent = Intent(this@MainActivity, LoginActivity::class.java)
+//            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK)
+//            startActivity(intent)
+//            finish()
+//        }
 
-        if (item.itemId == R.id.btnlogout) {
-            FirebaseAuth.getInstance().signOut()
 
-            val intent = Intent(this@MainActivity, LoginActivity::class.java)
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK)
+        if (item.itemId == R.id.btnsearch) {
+
+
+            val intent = Intent(this@MainActivity, search::class.java)
+//            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK)
             startActivity(intent)
             finish()
         }

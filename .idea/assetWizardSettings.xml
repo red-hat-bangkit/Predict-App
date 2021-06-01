@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/C:/Users/WINDOWS%2010/AppData/Local/Android/Sdk/icons/material/materialicons/logout/baseline_logout_24.xml" />
+                                      <entry key="url" value="file:/$PROJECT_DIR$/../../Android/Sdk/icons/material/materialicons/search/baseline_search_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,8 +28,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="afeeee" />
-                            <entry key="outputName" value="ic_baseline_logout_24" />
+                            <entry key="color" value="ffffff" />
+                            <entry key="outputName" value="ic_baseline_search_24" />
                             <entry key="sourceFile" value="D:\GitHub\Predict-App" />
                           </map>
                         </option>
