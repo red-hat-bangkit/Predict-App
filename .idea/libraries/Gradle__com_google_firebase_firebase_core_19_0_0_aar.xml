@@ -1,6 +1,7 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.firebase:firebase-core:19.0.0@aar">
     <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3a85ed201235774c4cdf6702466b2eb4/jetified-firebase-core-19.0.0/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e3c9190380d0b8d921b5f20eabc4d4a3/jetified-firebase-core-19.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e3c9190380d0b8d921b5f20eabc4d4a3/jetified-firebase-core-19.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e3c9190380d0b8d921b5f20eabc4d4a3/jetified-firebase-core-19.0.0/AndroidManifest.xml" />

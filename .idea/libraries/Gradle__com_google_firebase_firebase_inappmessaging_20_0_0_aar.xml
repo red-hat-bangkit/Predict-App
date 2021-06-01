@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.firebase:firebase-inappmessaging:20.0.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c12b31eab12675be93828cfa648d482/jetified-firebase-inappmessaging-20.0.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ec39f9d8237a527e646d0b0b818b7c0/jetified-firebase-inappmessaging-20.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1faaaeb114e69bb2a6f421b1632219a8/jetified-firebase-inappmessaging-20.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ec39f9d8237a527e646d0b0b818b7c0/jetified-firebase-inappmessaging-20.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ec39f9d8237a527e646d0b0b818b7c0/jetified-firebase-inappmessaging-20.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ec39f9d8237a527e646d0b0b818b7c0/jetified-firebase-inappmessaging-20.0.0/res" />
     </CLASSES>
     <JAVADOC>
