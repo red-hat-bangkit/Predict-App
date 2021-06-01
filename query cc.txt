@@ -1,0 +1,20 @@
+query{
+  bencanaInCity(city:"Jakarta", name: "banjir"){
+    name,
+    city{
+      
+      name
+    },
+    
+    predictions{
+      bencana
+      confidence
+      time
+      reason
+      
+      
+    }
+       
+  }
+  
+}
