@@ -5,18 +5,26 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.RedHat.predict.databinding.ActivityMainBinding
+import com.RedHat.predict.db.Data
 import com.RedHat.predict.db.PredictAdapter
 import com.RedHat.predict.home.SectionsPagerAdapter
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.FirebaseDatabase
 
 class MainActivity : AppCompatActivity() {
+
+    companion object {
+        const val ARG_section_username= "username"
+
+    }
     lateinit var mGoogleSignInClient: GoogleSignInClient
     private lateinit var mainViewModel: MainViewModel
     private lateinit var adapter: PredictAdapter
@@ -44,19 +52,31 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun showRecyclerList(){
-        adapter = PredictAdapter()
-        adapter.notifyDataSetChanged()
-        activityMainBinding.rvPredict.layoutManager = LinearLayoutManager(this)
-        activityMainBinding.rvPredict.adapter= adapter
 
-        mainViewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory()).get(MainViewModel::class.java)
-        mainViewModel.getGith().observe(this, { Github ->
-            if (Github != null) {
-                adapter.setData(Github)
+
+    private fun showRecyclerList(){
+        val user = intent.getParcelableExtra(ARG_section_username) as? Data
+        if (user != null ) {
+            adapter = PredictAdapter()
+            adapter.notifyDataSetChanged()
+            activityMainBinding.rvPredict.layoutManager = LinearLayoutManager(this)
+            activityMainBinding.rvPredict.adapter = adapter
+
+            mainViewModel = ViewModelProvider(
+                this,
+                ViewModelProvider.NewInstanceFactory()
+            ).get(MainViewModel::class.java)
+            mainViewModel.getGith().observe(this, { Github ->
+                if (Github != null) {
+                    adapter.setData(Github)
+                    activityMainBinding.progressBar.visibility = View.INVISIBLE
+                }
+            })
+            activityMainBinding.progressBar.visibility = View.VISIBLE
+            if (user != null) {
+                mainViewModel.getListQuotes(user.locationname, user.setelahhari, user.tanggal)
             }
-        })
-        mainViewModel.getListQuotes("Kampung Kelapa","3","2021-06-01")
+        }
     }
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.main_menu, menu)

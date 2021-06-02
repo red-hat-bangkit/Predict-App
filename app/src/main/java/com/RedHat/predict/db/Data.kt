@@ -12,5 +12,7 @@ class Data(
     var locationconfidience: String = "",
     var waktu: String = "",
     var terjadibencana: String = "",
-    var reason:  String = ""
+    var reason:  String = "",
+    var setelahhari:  String = "",
+    var tanggal:  String = ""
 ): Parcelable

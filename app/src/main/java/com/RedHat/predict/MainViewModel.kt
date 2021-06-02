@@ -48,7 +48,10 @@ class MainViewModel : ViewModel() {
                         val bencana = jsonObject.getString("bencana")
                         val waktu = jsonObject.getString("time")
                         val lokasi = jsonObject.getString("location")
+                        val reas = jsonObject.getString("reason")
 //                        Log.d(TAG, lokasi.toString())
+                        val time = lokasi.split(":",",").toTypedArray()
+                        Log.d(TAG, time[5].toString())
                         val user = Data()
 //                        val jsonArraylok = JSONArray(lokasi)
 //                        for (i in 0 until jsonArraylok.length()) {
@@ -56,9 +59,11 @@ class MainViewModel : ViewModel() {
 //                            user.locationname = namalokasi
 //                            Log.d(TAG, user.locationname.toString())
 //                        }
-                        user.locationname = lokasi
+                        user.locationname = time[1]
                         user.bencana=bencana
                         user.waktu=waktu
+                        user.locationconfidience=reas
+                        user.locationlatlong = time[5]
 //                        user.locationname = lokasi.toString()
 
                         listQuote.add(user)

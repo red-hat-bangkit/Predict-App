@@ -55,6 +55,8 @@ class PredictAdapter : RecyclerView.Adapter<PredictAdapter.WeatherViewHolder>() 
                 binding.dtIBencana.text = data.bencana
                 binding.dtIWilayah.text = data.locationname
                 binding.dtIWaktu.text = data.waktu
+                binding.dtIConfident.text = data.locationconfidience
+                binding.dtILongLat.text = data.locationlatlong
 //                itemView.setOnClickListener { Toast.makeText(itemView.context, "Kamu memilih ${gith.username}", Toast.LENGTH_SHORT).show()
 //
 //
