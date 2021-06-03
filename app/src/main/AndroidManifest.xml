@@ -9,11 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Predict">
-        <activity android:name=".search"></activity>
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".search" />
+        <activity android:name=".LoginActivity" />
         <activity android:name=".reglog.Register" />
         <activity android:name=".DetailActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashScreens">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
