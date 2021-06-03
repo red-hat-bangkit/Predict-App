@@ -45,7 +45,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
     <TextView
-        android:id="@+id/dtGenre"
+        android:id="@+id/txt_bencana"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -54,31 +54,31 @@
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
     <TextView
-        android:id="@+id/dtGenre2"
+        android:id="@+id/txt_wilayah"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         app:layout_constraintStart_toEndOf="@+id/dtLongLat"
-        app:layout_constraintTop_toBottomOf="@+id/dtGenre" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_bencana" />
 
     <TextView
-        android:id="@+id/dtGenre3"
+        android:id="@+id/txt_curah"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         app:layout_constraintStart_toEndOf="@+id/dtWilayah"
-        app:layout_constraintTop_toBottomOf="@+id/dtGenre4" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_longlat" />
 
     <TextView
-        android:id="@+id/dtGenre4"
+        android:id="@+id/txt_longlat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         app:layout_constraintStart_toEndOf="@+id/dtJam"
-        app:layout_constraintTop_toBottomOf="@+id/dtGenre2" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_wilayah" />
 
     <TextView
         android:id="@+id/dtWilayah"

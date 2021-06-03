@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
         const val ARG_section_username= "username"
-
+        const val EXTRA_NOTE = "extra_note"
     }
     lateinit var mGoogleSignInClient: GoogleSignInClient
     private lateinit var mainViewModel: MainViewModel

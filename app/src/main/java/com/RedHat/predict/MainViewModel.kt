@@ -45,10 +45,11 @@ class MainViewModel : ViewModel() {
                     val jsonArray = JSONArray(result)
                     for (i in 0 until jsonArray.length()) {
                         val jsonObject = jsonArray.getJSONObject(i)
-                        val bencana = jsonObject.getString("bencana")
+                        val bencana = jsonObject.getString("is_bencana")
                         val waktu = jsonObject.getString("time")
                         val lokasi = jsonObject.getString("location")
                         val reas = jsonObject.getString("reason")
+
 //                        Log.d(TAG, lokasi.toString())
                         val time = lokasi.split(":",",").toTypedArray()
                         Log.d(TAG, time[5].toString())
@@ -61,6 +62,14 @@ class MainViewModel : ViewModel() {
 //                        }
                         user.locationname = time[1]
                         user.bencana=bencana
+                        if(user.bencana == "true")
+                        {
+                            user.bencana= "Iya"
+                        }
+                        else if (user.bencana == "false")
+                        {
+                            user.bencana="Tidak"
+                        }
                         user.waktu=waktu
                         user.locationconfidience=reas
                         user.locationlatlong = time[5]
