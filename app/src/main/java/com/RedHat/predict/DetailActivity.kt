@@ -17,5 +17,19 @@ class DetailActivity : AppCompatActivity() {
         setContentView(binding.root)
         val user = intent.getParcelableExtra(EXTRA_NOTE) as? Data
 
+
+        binding.txtBencana.text = user?.bencana
+        if(user?.bencana == "true")
+        {
+            binding.txtBencana.text= "Iya"
+        }
+        else if (user?.bencana == "false")
+        {
+            binding.txtBencana.text ="Tidak"
+        }
+        binding.txtCurah.text =   user?.locationconfidience
+        binding.txtWilayah.text = user?.locationname
+        binding.txtLonglat.text= user?.locationlatlong
+
     }
 }

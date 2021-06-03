@@ -27,18 +27,18 @@
     <string name="reqtoken">700362298333-eaf0u4j1np3a6cvanphgf9jhsstrorbc.apps.googleusercontent.com</string>
     <string name="logout">Logout</string>
     <string-array name="location">
-        <item>Angke</item>
-        <item>Cisadane</item>
+        <item>Bendungan Gintung</item>
+        <item>Bojong Murni</item>
+        <item> Cawang</item>
+        <item>Cengkareng Drain</item>
+        <item>Cibinong</item>
+        <item>Cimanggu</item>
+        <item>Gadog</item>
+        <item>Gunung Mas</item>
+        <item>Jatijajar</item>
+        <item>Jeruk Purut</item>
+    </string-array>
 
-    </string-array>
-    <string-array name="Languages">
-        <item>Java</item>
-        <item>Kotlin</item>
-        <item>Swift</item>
-        <item>Python</item>
-        <item>Scala</item>
-        <item>Perl</item>
-    </string-array>
     <string name="location_name">Nama Lokasi</string>
     <string name="hari">Jumlah Hari</string>
     <string name="tanggal">Setelah Tanggal</string>

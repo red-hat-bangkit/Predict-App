@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import com.RedHat.predict.DetailActivity
 import com.RedHat.predict.R
 import com.RedHat.predict.databinding.ItemFloatBinding
 import com.bumptech.glide.Glide
@@ -31,15 +32,15 @@ class PredictAdapter : RecyclerView.Adapter<PredictAdapter.WeatherViewHolder>() 
     override fun onBindViewHolder(weatherViewHolder: WeatherViewHolder, position: Int) {
         weatherViewHolder.bind(mData[position])
 
-//        weatherViewHolder.itemView.setOnClickListener() {
-//
-//            val activity = weatherViewHolder.itemView.context as Activity
-//            val intent = Intent(activity , Detailgithub::class.java).apply {
-//                putExtra(Detailgithub.ARG_section_username, mData[position])
-//
-//            }
-//            activity.startActivity(intent)
-//        }
+        weatherViewHolder.itemView.setOnClickListener() {
+
+            val activity = weatherViewHolder.itemView.context as Activity
+            val intent = Intent(activity , DetailActivity::class.java).apply {
+                putExtra(DetailActivity.EXTRA_NOTE, mData[position])
+
+            }
+            activity.startActivity(intent)
+        }
     }
 
     override fun getItemCount(): Int = mData.size
