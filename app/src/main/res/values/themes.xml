@@ -16,7 +16,4 @@
     <style name="buttons" parent="Theme.AppCompat.Light">
         <item name="colorControlHighlight">@color/bluebutton</item>
     </style>
-    <style name="SplashScreens" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:windowBackground">@drawable/logo</item>
-    </style>
 </resources>
