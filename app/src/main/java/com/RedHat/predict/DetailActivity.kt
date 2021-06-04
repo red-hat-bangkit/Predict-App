@@ -30,6 +30,6 @@ class DetailActivity : AppCompatActivity() {
         binding.txtCurah.text =   user?.locationconfidience
         binding.txtWilayah.text = user?.locationname
         binding.txtLonglat.text= user?.locationlatlong
-
+        binding.txtWaktu.text= user?.waktu
     }
 }

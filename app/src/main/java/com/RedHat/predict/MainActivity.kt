@@ -3,6 +3,7 @@ package com.RedHat.predict
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -24,6 +25,7 @@ class MainActivity : AppCompatActivity() {
     companion object {
         const val ARG_section_username= "username"
         const val EXTRA_NOTE = "extra_note"
+        private val TAG = MainActivity::class.java.simpleName
     }
     lateinit var mGoogleSignInClient: GoogleSignInClient
     private lateinit var mainViewModel: MainViewModel
@@ -73,6 +75,9 @@ class MainActivity : AppCompatActivity() {
                 }
             })
             activityMainBinding.progressBar.visibility = View.VISIBLE
+            Log.d(TAG, user.locationname)
+            Log.d(TAG, user.setelahhari)
+            Log.d(TAG, user.tanggal)
             if (user != null) {
                 mainViewModel.getListQuotes(user.locationname, user.setelahhari, user.tanggal)
             }
