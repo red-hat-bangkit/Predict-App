@@ -4,6 +4,8 @@ import android.app.DatePickerDialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.InputFilter
+import android.text.Spanned
 import android.util.Log
 import android.view.View
 import android.widget.*
@@ -76,13 +78,53 @@ class search : AppCompatActivity() {
 
         })
 
+
+        binding.edtEmail.filters = arrayOf<InputFilter>(MinMaxFilter("1", "10"))
+
     }
+
+
+    inner class MinMaxFilter() : InputFilter {
+        private var intMin: Int = 0
+        private var intMax: Int = 0
+        constructor(minValue: String, maxValue: String) : this() {
+            this.intMin = Integer.parseInt(minValue)
+            this.intMax = Integer.parseInt(maxValue)
+        }
+        override fun filter(
+            source: CharSequence,
+            start: Int,
+            end: Int,
+            dest: Spanned,
+            dStart: Int,
+            dEnd: Int
+        ): CharSequence? {
+            try {
+                val string = binding.edtEmail.text.toString()
+                val input = Integer.parseInt(dest.toString() + source.toString())
+                if (isInRange(intMin, intMax, input)) {
+//                    textView.text = string
+                    return null
+                }
+                else {
+                    Toast.makeText(this@search, "Tidak boleh melebihi 10 ", Toast.LENGTH_SHORT).show()
+
+                }
+            } catch (e: NumberFormatException) {
+                e.printStackTrace()
+            }
+            return ""
+        }
+        private fun isInRange(a: Int, b: Int, c: Int): Boolean {
+            return if (b > a) c in a..b else c in b..a
+        }
+    }
+
     private fun updateDateInView() {
         val myFormat = "yyyy-MM-dd" // mention the format you need
         val sdf = SimpleDateFormat(myFormat, Locale.US)
         binding.edtPassword.text = sdf.format(cal.getTime())
-        Toast.makeText(this@search,
-                        sdf.format(cal.getTime()).toString(), Toast.LENGTH_SHORT).show()
+     
     }
     private fun registeruser(){
 //        val nama = binding.edtNama.text.toString()
@@ -97,6 +139,7 @@ class search : AppCompatActivity() {
             email.isEmpty() -> {
                 binding.edtEmail.error = "Masih kosong"
             }
+
             password.isEmpty() -> {
                 binding.edtPassword.error = "Masih kosong"
             }
@@ -105,6 +148,7 @@ class search : AppCompatActivity() {
                     putExtra(MainActivity.ARG_section_username, test)
 
                 }
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK)
                 startActivity(intent)
             }
         }
