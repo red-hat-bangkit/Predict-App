@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     android:fitsSystemWindows="true"
     tools:context=".MainActivity">
     <com.google.android.material.tabs.TabLayout
@@ -28,11 +29,11 @@
     </androidx.viewpager.widget.ViewPager>
 
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_predict"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:listitem="@layout/item_float" />
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/rv_predict"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:listitem="@layout/item_float" />-->
 <!--    <com.google.android.material.tabs.TabLayout-->
 <!--        android:id="@+id/tabs"-->
 <!--        android:layout_width="match_parent"-->
