@@ -124,7 +124,7 @@ class search : AppCompatActivity() {
         val myFormat = "yyyy-MM-dd" // mention the format you need
         val sdf = SimpleDateFormat(myFormat, Locale.US)
         binding.edtPassword.text = sdf.format(cal.getTime())
-     
+
     }
     private fun registeruser(){
 //        val nama = binding.edtNama.text.toString()
