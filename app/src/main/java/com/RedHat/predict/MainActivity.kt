@@ -72,6 +72,7 @@ class MainActivity : AppCompatActivity() {
                 if (Github != null) {
                     adapter.setData(Github)
                     activityMainBinding.progressBar.visibility = View.INVISIBLE
+                    activityMainBinding.imgBg.visibility = View.GONE
                 }
             })
             activityMainBinding.progressBar.visibility = View.VISIBLE
