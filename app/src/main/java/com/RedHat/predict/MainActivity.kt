@@ -72,9 +72,10 @@ class MainActivity : AppCompatActivity() {
                 if (Github != null) {
                     adapter.setData(Github)
                     activityMainBinding.progressBar.visibility = View.INVISIBLE
-                    activityMainBinding.imgBg.visibility = View.GONE
+
                 }
             })
+            activityMainBinding.imgBg.visibility = View.INVISIBLE
             activityMainBinding.progressBar.visibility = View.VISIBLE
             Log.d(TAG, user.locationname)
             Log.d(TAG, user.setelahhari)

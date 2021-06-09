@@ -28,6 +28,7 @@ class search : AppCompatActivity() {
         super.onCreate(savedInstanceState)
        binding = ActivitySearchBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
        binding.btnSubmit.setOnClickListener {
 
             registeruser()
@@ -131,29 +132,33 @@ class search : AppCompatActivity() {
         val user = intent.getStringExtra(EXTRA_NOTE)
         val email = binding.edtEmail.text.toString()
         val password = binding.edtPassword.text.toString()
+       if (password == "//-//-//")
+       {
+           Toast.makeText(this@search, "Tidak boleh Kosong", Toast.LENGTH_SHORT).show()
+       }
+        else {
 
+           val test = user?.let { Data("", it, "", "", "", "", "", "", email, password) }
 
-        val test = user?.let { Data("", it,"","","","","","",email,password) }
+           when {
+               email.isEmpty() -> {
+                   binding.edtEmail.error = "Masih kosong"
+               }
 
-        when {
-            email.isEmpty() -> {
-                binding.edtEmail.error = "Masih kosong"
-            }
+               password.isEmpty() -> {
+                   binding.edtPassword.error = "Masih kosong"
+               }
+               else -> {
+                   val intent = Intent(this@search, MainActivity::class.java).apply {
+                       putExtra(MainActivity.ARG_section_username, test)
 
-            password.isEmpty() -> {
-                binding.edtPassword.error = "Masih kosong"
-            }
-            else -> {
-                val intent = Intent(this@search , MainActivity::class.java).apply {
-                    putExtra(MainActivity.ARG_section_username, test)
+                   }
+                   intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK)
+                   startActivity(intent)
+               }
+           }
 
-                }
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK)
-                startActivity(intent)
-            }
-        }
-
-
+       }
 
     }
 }
